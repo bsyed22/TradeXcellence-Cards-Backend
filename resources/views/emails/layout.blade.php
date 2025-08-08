@@ -96,7 +96,7 @@
                 <tr>
                     <td align="center">
                         <img
-                            src="https://bdapi.a2broker.online/public/img/blackduck_banner.png"
+                            src="https://cards.tradexcellence.co.uk/backend/public/img/banner_trade.jpg"
                             alt="The BlackDuck Card - Spend Crypto Anywhere With Ease"
                             width="602"
                             class="light-mode-banner"
@@ -109,7 +109,7 @@
                         />
                         <!--[if !mso]><!-->
                         <img
-                            src="http://bdapi.a2broker.online/public/img/blackduck_banner.png"
+                            src="http://cards.tradexcellence.co.uk/backend/public/img/banner_trade.jpg"
                             alt="The BlackDuck Card - Spend Crypto Anywhere With Ease"
                             width="602"
                             class="dark-mode-banner"
@@ -268,7 +268,7 @@
                                                 <tr>
                                                     <td align="left" style="padding: 10px">
                                                         <img
-                                                            src="https://bdapi.a2broker.online/public/img/blackduck_logo.png"
+                                                            src="https://cards.tradexcellence.co.uk/backend/public/img/logo.png"
                                                             alt="The BlackDuck Card Logo"
                                                             width="160"
                                                             style="height: auto; display: block"
@@ -297,7 +297,7 @@
                                         "
                                                                     >
                                                                         <img
-                                                                            src="https://bdapi.a2broker.online/public/img/instagram.png"
+                                                                            src="https://cards.tradexcellence.co.uk/backend/public/img/instagram.png"
                                                                             alt="Instagram"
                                                                             width="18"
                                                                             height="18"
@@ -323,7 +323,7 @@
                                         "
                                                                     >
                                                                         <img
-                                                                            src="https://bdapi.a2broker.online/public/img/facebook.png"
+                                                                            src="https://cards.tradexcellence.co.uk/backend/public/img/facebook.png"
                                                                             alt="Facebook"
                                                                             width="18"
                                                                             height="18"
@@ -349,7 +349,7 @@
                                         "
                                                                     >
                                                                         <img
-                                                                            src="https://bdapi.a2broker.online/public/img/telegram.png"
+                                                                            src="https://cards.tradexcellence.co.uk/backend/public/img/telegram.png"
                                                                             alt="Telegram"
                                                                             width="18"
                                                                             height="18"
