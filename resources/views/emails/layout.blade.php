@@ -378,13 +378,12 @@
                                                 >
                                                     Send any inquiries to
                                                     <a
-                                                        href="mailto:support@theblackduckcard.com"
+                                                        href="mailto:support@tradexcellence.co.uk"
                                                         style="
                                   color: #F2FCFE;
                                   text-decoration: underline;
                                 "
-                                                    >support@theblackduckcard.com</a
-                                                    >.
+                                                    >support@tradexcellence.co.uk</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -397,7 +396,7 @@
                                 color: #cccccc;
                               "
                                                 >
-                                                    All rights reserved. © 2025 The BlackDuck Card.
+                                                    All rights reserved. © 2025 The Tradexcellence.
                                                 </td>
                                             </tr>
 
