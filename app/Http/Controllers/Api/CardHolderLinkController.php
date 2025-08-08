@@ -295,7 +295,7 @@ class CardHolderLinkController extends Controller
             'alias' => 'nullable|string',
             'email' => 'nullable|email',
             'fee_paid' => 'nullable|boolean',
-            'balance' => 'nullable|integer',
+            'balance' => 'nullable|numeric',
             'status' => 'nullable|string',
         ]);
 
