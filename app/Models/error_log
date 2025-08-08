@@ -1,0 +1,40 @@
+[24-Jun-2025 12:19:10 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/User.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/User.php on line 15
+[24-Jun-2025 12:39:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/User.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/User.php on line 15
+[24-Jun-2025 12:55:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/CardHolderLink.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/CardHolderLink.php on line 8
+[24-Jun-2025 12:55:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/Deposit.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/Deposit.php on line 11
+[24-Jun-2025 12:55:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/User.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/User.php on line 15
+[24-Jun-2025 12:55:44 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/Withdrawal.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/Withdrawal.php on line 7
+[24-Jun-2025 17:57:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/Deposit.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/Deposit.php on line 11
+[24-Jun-2025 18:55:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/Deposit.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/Deposit.php on line 11
+[24-Jun-2025 21:37:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/Withdrawal.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/Withdrawal.php on line 7
+[24-Jun-2025 23:07:01 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/vortuvkg/wallet.vortexfx.com/app/Models/CardHolderLink.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Models/CardHolderLink.php on line 8

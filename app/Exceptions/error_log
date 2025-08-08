@@ -1,0 +1,8 @@
+[24-Jun-2025 12:39:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/vortuvkg/wallet.vortexfx.com/app/Exceptions/Handler.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Exceptions/Handler.php on line 10
+[25-Jun-2025 00:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Exceptions\Handler" not found in /home/vortuvkg/wallet.vortexfx.com/app/Exceptions/Handler.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Exceptions/Handler.php on line 10

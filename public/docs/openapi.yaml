@@ -1,0 +1,533 @@
+openapi: 3.0.3
+info:
+  title: Laravel
+  description: ''
+  version: 1.0.0
+servers:
+  -
+    url: 'http://crud-api.test'
+paths:
+  /api/user:
+    get:
+      summary: ''
+      operationId: getApiUser
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+  /api/tasks:
+    get:
+      summary: 'Get Tasks'
+      operationId: getTasks
+      description: 'Getting the list of the tasks'
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  data:
+                    -
+                      id: 1
+                      name: 'Est accusamus.'
+                      description: 'Deserunt quia odit rem iusto mollitia expedita architecto. Perspiciatis ex est perspiciatis voluptatem. Modi sit odit sed eos quia.'
+                      user_id: 1
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user:
+                        id: 1
+                        name: 'Test User'
+                        email: test@example.com
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                    -
+                      id: 2
+                      name: 'Est saepe velit.'
+                      description: 'Saepe voluptas ipsam sint laudantium perspiciatis. Et iure quia quia et distinctio.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 3
+                      name: 'Qui quisquam et.'
+                      description: 'Quaerat iure qui esse ullam dolor soluta. Labore et facere soluta aliquam. At doloremque optio nesciunt aliquam.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 4
+                      name: 'Et ipsam et quis.'
+                      description: 'Est omnis veritatis est aut. Incidunt tempora velit aliquam ducimus. Autem eos non iste dignissimos voluptas aperiam perferendis. Aut impedit deleniti consectetur vero.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 5
+                      name: 'Placeat cum alias.'
+                      description: 'Vel quod pariatur excepturi. Dolorem dolores autem mollitia. Saepe eum excepturi veniam repellendus placeat optio dolor. Possimus itaque aperiam sapiente voluptatem veniam ullam illum.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 6
+                      name: 'Officiis tempore.'
+                      description: 'Vitae assumenda beatae sunt maxime voluptas ad aut. Nostrum ratione est est voluptatum error consequatur. Est a doloremque officia et rerum nemo nihil minima. Eligendi placeat veritatis amet quia.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 7
+                      name: 'Numquam deleniti.'
+                      description: 'Quis libero quasi aut aperiam in quisquam dolor. Ipsa est libero molestiae. Doloremque sequi temporibus deleniti incidunt quod quia quasi.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 8
+                      name: 'Nihil odit et earum.'
+                      description: 'Ut neque consectetur quasi harum voluptas. Aliquam dolorem tempora nisi voluptatem quo. Vitae et quo ea itaque sint. At velit earum qui dicta id reiciendis voluptas.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 9
+                      name: 'Consequatur minus.'
+                      description: 'Voluptatum mollitia doloribus sit sit dolorem molestiae tempore et. Quis fuga provident officiis in et. Et incidunt sed exercitationem qui molestias qui necessitatibus veniam.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                    -
+                      id: 10
+                      name: 'Est quo a.'
+                      description: 'Dolorem doloribus repudiandae voluptatum iste sed. Rerum consequatur aut non animi in quia molestiae. Rerum voluptatum repellat iste sit eum.'
+                      user_id: null
+                      created_at: '2024-12-13 13:22:16'
+                      updated_at: '2024-12-13 13:22:16'
+                      user: null
+                  links:
+                    first: 'http://crud-api.test/api/tasks?page=1'
+                    last: 'http://crud-api.test/api/tasks?page=6'
+                    prev: null
+                    next: 'http://crud-api.test/api/tasks?page=2'
+                  meta:
+                    current_page: 1
+                    from: 1
+                    last_page: 6
+                    links:
+                      -
+                        url: null
+                        label: '&laquo; Previous'
+                        active: false
+                      -
+                        url: 'http://crud-api.test/api/tasks?page=1'
+                        label: '1'
+                        active: true
+                      -
+                        url: 'http://crud-api.test/api/tasks?page=2'
+                        label: '2'
+                        active: false
+                      -
+                        url: 'http://crud-api.test/api/tasks?page=3'
+                        label: '3'
+                        active: false
+                      -
+                        url: 'http://crud-api.test/api/tasks?page=4'
+                        label: '4'
+                        active: false
+                      -
+                        url: 'http://crud-api.test/api/tasks?page=5'
+                        label: '5'
+                        active: false
+                      -
+                        url: 'http://crud-api.test/api/tasks?page=6'
+                        label: '6'
+                        active: false
+                      -
+                        url: 'http://crud-api.test/api/tasks?page=2'
+                        label: 'Next &raquo;'
+                        active: false
+                    path: 'http://crud-api.test/api/tasks'
+                    per_page: 10
+                    to: 10
+                    total: 51
+                properties:
+                  data:
+                    type: array
+                    example:
+                      -
+                        id: 1
+                        name: 'Est accusamus.'
+                        description: 'Deserunt quia odit rem iusto mollitia expedita architecto. Perspiciatis ex est perspiciatis voluptatem. Modi sit odit sed eos quia.'
+                        user_id: 1
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user:
+                          id: 1
+                          name: 'Test User'
+                          email: test@example.com
+                          created_at: '2024-12-13 13:22:16'
+                          updated_at: '2024-12-13 13:22:16'
+                      -
+                        id: 2
+                        name: 'Est saepe velit.'
+                        description: 'Saepe voluptas ipsam sint laudantium perspiciatis. Et iure quia quia et distinctio.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 3
+                        name: 'Qui quisquam et.'
+                        description: 'Quaerat iure qui esse ullam dolor soluta. Labore et facere soluta aliquam. At doloremque optio nesciunt aliquam.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 4
+                        name: 'Et ipsam et quis.'
+                        description: 'Est omnis veritatis est aut. Incidunt tempora velit aliquam ducimus. Autem eos non iste dignissimos voluptas aperiam perferendis. Aut impedit deleniti consectetur vero.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 5
+                        name: 'Placeat cum alias.'
+                        description: 'Vel quod pariatur excepturi. Dolorem dolores autem mollitia. Saepe eum excepturi veniam repellendus placeat optio dolor. Possimus itaque aperiam sapiente voluptatem veniam ullam illum.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 6
+                        name: 'Officiis tempore.'
+                        description: 'Vitae assumenda beatae sunt maxime voluptas ad aut. Nostrum ratione est est voluptatum error consequatur. Est a doloremque officia et rerum nemo nihil minima. Eligendi placeat veritatis amet quia.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 7
+                        name: 'Numquam deleniti.'
+                        description: 'Quis libero quasi aut aperiam in quisquam dolor. Ipsa est libero molestiae. Doloremque sequi temporibus deleniti incidunt quod quia quasi.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 8
+                        name: 'Nihil odit et earum.'
+                        description: 'Ut neque consectetur quasi harum voluptas. Aliquam dolorem tempora nisi voluptatem quo. Vitae et quo ea itaque sint. At velit earum qui dicta id reiciendis voluptas.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 9
+                        name: 'Consequatur minus.'
+                        description: 'Voluptatum mollitia doloribus sit sit dolorem molestiae tempore et. Quis fuga provident officiis in et. Et incidunt sed exercitationem qui molestias qui necessitatibus veniam.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                      -
+                        id: 10
+                        name: 'Est quo a.'
+                        description: 'Dolorem doloribus repudiandae voluptatum iste sed. Rerum consequatur aut non animi in quia molestiae. Rerum voluptatum repellat iste sit eum.'
+                        user_id: null
+                        created_at: '2024-12-13 13:22:16'
+                        updated_at: '2024-12-13 13:22:16'
+                        user: null
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 1
+                        name:
+                          type: string
+                          example: 'Est accusamus.'
+                        description:
+                          type: string
+                          example: 'Deserunt quia odit rem iusto mollitia expedita architecto. Perspiciatis ex est perspiciatis voluptatem. Modi sit odit sed eos quia.'
+                        user_id:
+                          type: integer
+                          example: 1
+                        created_at:
+                          type: string
+                          example: '2024-12-13 13:22:16'
+                        updated_at:
+                          type: string
+                          example: '2024-12-13 13:22:16'
+                        user:
+                          type: object
+                          properties:
+                            id:
+                              type: integer
+                              example: 1
+                            name:
+                              type: string
+                              example: 'Test User'
+                            email:
+                              type: string
+                              example: test@example.com
+                            created_at:
+                              type: string
+                              example: '2024-12-13 13:22:16'
+                            updated_at:
+                              type: string
+                              example: '2024-12-13 13:22:16'
+                  links:
+                    type: object
+                    properties:
+                      first:
+                        type: string
+                        example: 'http://crud-api.test/api/tasks?page=1'
+                      last:
+                        type: string
+                        example: 'http://crud-api.test/api/tasks?page=6'
+                      prev:
+                        type: string
+                        example: null
+                      next:
+                        type: string
+                        example: 'http://crud-api.test/api/tasks?page=2'
+                  meta:
+                    type: object
+                    properties:
+                      current_page:
+                        type: integer
+                        example: 1
+                      from:
+                        type: integer
+                        example: 1
+                      last_page:
+                        type: integer
+                        example: 6
+                      links:
+                        type: array
+                        example:
+                          -
+                            url: null
+                            label: '&laquo; Previous'
+                            active: false
+                          -
+                            url: 'http://crud-api.test/api/tasks?page=1'
+                            label: '1'
+                            active: true
+                          -
+                            url: 'http://crud-api.test/api/tasks?page=2'
+                            label: '2'
+                            active: false
+                          -
+                            url: 'http://crud-api.test/api/tasks?page=3'
+                            label: '3'
+                            active: false
+                          -
+                            url: 'http://crud-api.test/api/tasks?page=4'
+                            label: '4'
+                            active: false
+                          -
+                            url: 'http://crud-api.test/api/tasks?page=5'
+                            label: '5'
+                            active: false
+                          -
+                            url: 'http://crud-api.test/api/tasks?page=6'
+                            label: '6'
+                            active: false
+                          -
+                            url: 'http://crud-api.test/api/tasks?page=2'
+                            label: 'Next &raquo;'
+                            active: false
+                        items:
+                          type: object
+                          properties:
+                            url:
+                              type: string
+                              example: null
+                            label:
+                              type: string
+                              example: '&laquo; Previous'
+                            active:
+                              type: boolean
+                              example: false
+                      path:
+                        type: string
+                        example: 'http://crud-api.test/api/tasks'
+                      per_page:
+                        type: integer
+                        example: 10
+                      to:
+                        type: integer
+                        example: 10
+                      total:
+                        type: integer
+                        example: 51
+      tags:
+        - Tasks
+      security: []
+    post:
+      summary: 'Add New Task'
+      operationId: addNewTask
+      description: 'Adding a new task'
+      parameters: []
+      responses: {  }
+      tags:
+        - Tasks
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: ''
+                  example: eligendi
+                  nullable: false
+                description:
+                  type: string
+                  description: ''
+                  example: 'Necessitatibus cum qui magni dolores rerum.'
+                  nullable: false
+                user_id:
+                  type: string
+                  description: 'The <code>id</code> of an existing record in the users table.'
+                  example: null
+                  nullable: true
+              required:
+                - name
+                - description
+      security: []
+  '/api/tasks/{id}':
+    get:
+      summary: 'Show Task'
+      operationId: showTask
+      description: 'Getting the data of a specific task'
+      parameters: []
+      responses:
+        200:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  data:
+                    id: 1
+                    name: 'Est accusamus.'
+                    description: 'Deserunt quia odit rem iusto mollitia expedita architecto. Perspiciatis ex est perspiciatis voluptatem. Modi sit odit sed eos quia.'
+                    user_id: 1
+                    created_at: '2024-12-13 13:22:16'
+                    updated_at: '2024-12-13 13:22:16'
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: integer
+                        example: 1
+                      name:
+                        type: string
+                        example: 'Est accusamus.'
+                      description:
+                        type: string
+                        example: 'Deserunt quia odit rem iusto mollitia expedita architecto. Perspiciatis ex est perspiciatis voluptatem. Modi sit odit sed eos quia.'
+                      user_id:
+                        type: integer
+                        example: 1
+                      created_at:
+                        type: string
+                        example: '2024-12-13 13:22:16'
+                      updated_at:
+                        type: string
+                        example: '2024-12-13 13:22:16'
+      tags:
+        - Tasks
+      security: []
+    put:
+      summary: 'Update Task'
+      operationId: updateTask
+      description: 'Updating a specific task'
+      parameters: []
+      responses: {  }
+      tags:
+        - Tasks
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                  description: ''
+                  example: voluptates
+                  nullable: false
+                description:
+                  type: string
+                  description: ''
+                  example: 'Eos dolores rerum deleniti dolores sint.'
+                  nullable: false
+                user_id:
+                  type: string
+                  description: 'The <code>id</code> of an existing record in the users table.'
+                  example: null
+                  nullable: true
+              required:
+                - name
+                - description
+      security: []
+    delete:
+      summary: 'Delete Task'
+      operationId: deleteTask
+      description: 'Deleting a specific task'
+      parameters: []
+      responses: {  }
+      tags:
+        - Tasks
+      security: []
+    parameters:
+      -
+        in: path
+        name: id
+        description: 'The ID of the task.'
+        example: 1
+        required: true
+        schema:
+          type: integer
+tags:
+  -
+    name: Endpoints
+    description: ''
+  -
+    name: Tasks
+    description: "\nManaging Tasks"

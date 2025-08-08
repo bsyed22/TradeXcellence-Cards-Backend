@@ -1,0 +1,44 @@
+[24-Jun-2025 07:39:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php on line 9
+[24-Jun-2025 12:31:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php on line 9
+[24-Jun-2025 12:54:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php on line 9
+[24-Jun-2025 12:56:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/AdminUserSeeder.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/AdminUserSeeder.php on line 12
+[24-Jun-2025 12:56:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/DatabaseSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/DatabaseSeeder.php on line 8
+[25-Jun-2025 10:33:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/DatabaseSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/DatabaseSeeder.php on line 8
+[25-Jun-2025 10:34:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/AdminUserSeeder.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/AdminUserSeeder.php on line 12
+[25-Jun-2025 10:34:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php on line 9
+[25-Jun-2025 10:43:40 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/DatabaseSeeder.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/DatabaseSeeder.php on line 8
+[25-Jun-2025 10:43:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/AdminUserSeeder.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/AdminUserSeeder.php on line 12
+[25-Jun-2025 10:44:39 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Seeder" not found in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/database/seeders/PermissionSeeder.php on line 9

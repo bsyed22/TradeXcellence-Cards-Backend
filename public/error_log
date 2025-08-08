@@ -1,0 +1,16 @@
+[23-Jun-2025 13:19:05 UTC] PHP Warning:  require(/home/vortuvkg/wallet.vortexfx.com/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php on line 41
+[23-Jun-2025 13:19:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/vortuvkg/wallet.vortexfx.com/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/vortuvkg/wallet.vortexfx.com/vendor/autoload.php(25): ComposerAutoloaderInit5c6e6e29e426ca5c7c39053793024056::getLoader()
+#2 /home/vortuvkg/wallet.vortexfx.com/public/index.php(13): require('/home/vortuvkg/...')
+#3 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php on line 41
+[23-Jun-2025 13:19:07 UTC] PHP Warning:  require(/home/vortuvkg/wallet.vortexfx.com/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php): Failed to open stream: No such file or directory in /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php on line 41
+[23-Jun-2025 13:19:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/vortuvkg/wallet.vortexfx.com/vendor/composer/../symfony/polyfill-mbstring/bootstrap.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php(45): {closure}()
+#1 /home/vortuvkg/wallet.vortexfx.com/vendor/autoload.php(25): ComposerAutoloaderInit5c6e6e29e426ca5c7c39053793024056::getLoader()
+#2 /home/vortuvkg/wallet.vortexfx.com/public/index.php(13): require('/home/vortuvkg/...')
+#3 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/vendor/composer/autoload_real.php on line 41

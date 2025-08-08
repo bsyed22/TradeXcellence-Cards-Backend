@@ -1,0 +1,40 @@
+[23-Jun-2025 21:00:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 04:58:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 04:59:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 05:43:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 05:44:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 05:52:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 05:58:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 06:05:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 19:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7
+[24-Jun-2025 19:14:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/bootstrap/app.php on line 7

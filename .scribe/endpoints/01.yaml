@@ -1,0 +1,281 @@
+name: Tasks
+description: |-
+
+  Managing Tasks
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/tasks
+    metadata:
+      groupName: Tasks
+      groupDescription: |-
+
+        Managing Tasks
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get Tasks'
+      description: 'Getting the list of the tasks'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[{"id":1,"name":"Est accusamus.","description":"Deserunt quia odit rem iusto mollitia expedita architecto. Perspiciatis ex est perspiciatis voluptatem. Modi sit odit sed eos quia.","user_id":1,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":{"id":1,"name":"Test User","email":"test@example.com","created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16"}},{"id":2,"name":"Est saepe velit.","description":"Saepe voluptas ipsam sint laudantium perspiciatis. Et iure quia quia et distinctio.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":3,"name":"Qui quisquam et.","description":"Quaerat iure qui esse ullam dolor soluta. Labore et facere soluta aliquam. At doloremque optio nesciunt aliquam.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":4,"name":"Et ipsam et quis.","description":"Est omnis veritatis est aut. Incidunt tempora velit aliquam ducimus. Autem eos non iste dignissimos voluptas aperiam perferendis. Aut impedit deleniti consectetur vero.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":5,"name":"Placeat cum alias.","description":"Vel quod pariatur excepturi. Dolorem dolores autem mollitia. Saepe eum excepturi veniam repellendus placeat optio dolor. Possimus itaque aperiam sapiente voluptatem veniam ullam illum.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":6,"name":"Officiis tempore.","description":"Vitae assumenda beatae sunt maxime voluptas ad aut. Nostrum ratione est est voluptatum error consequatur. Est a doloremque officia et rerum nemo nihil minima. Eligendi placeat veritatis amet quia.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":7,"name":"Numquam deleniti.","description":"Quis libero quasi aut aperiam in quisquam dolor. Ipsa est libero molestiae. Doloremque sequi temporibus deleniti incidunt quod quia quasi.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":8,"name":"Nihil odit et earum.","description":"Ut neque consectetur quasi harum voluptas. Aliquam dolorem tempora nisi voluptatem quo. Vitae et quo ea itaque sint. At velit earum qui dicta id reiciendis voluptas.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":9,"name":"Consequatur minus.","description":"Voluptatum mollitia doloribus sit sit dolorem molestiae tempore et. Quis fuga provident officiis in et. Et incidunt sed exercitationem qui molestias qui necessitatibus veniam.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null},{"id":10,"name":"Est quo a.","description":"Dolorem doloribus repudiandae voluptatum iste sed. Rerum consequatur aut non animi in quia molestiae. Rerum voluptatum repellat iste sit eum.","user_id":null,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16","user":null}],"links":{"first":"http:\/\/crud-api.test\/api\/tasks?page=1","last":"http:\/\/crud-api.test\/api\/tasks?page=6","prev":null,"next":"http:\/\/crud-api.test\/api\/tasks?page=2"},"meta":{"current_page":1,"from":1,"last_page":6,"links":[{"url":null,"label":"&laquo; Previous","active":false},{"url":"http:\/\/crud-api.test\/api\/tasks?page=1","label":"1","active":true},{"url":"http:\/\/crud-api.test\/api\/tasks?page=2","label":"2","active":false},{"url":"http:\/\/crud-api.test\/api\/tasks?page=3","label":"3","active":false},{"url":"http:\/\/crud-api.test\/api\/tasks?page=4","label":"4","active":false},{"url":"http:\/\/crud-api.test\/api\/tasks?page=5","label":"5","active":false},{"url":"http:\/\/crud-api.test\/api\/tasks?page=6","label":"6","active":false},{"url":"http:\/\/crud-api.test\/api\/tasks?page=2","label":"Next &raquo;","active":false}],"path":"http:\/\/crud-api.test\/api\/tasks","per_page":10,"to":10,"total":51}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/tasks
+    metadata:
+      groupName: Tasks
+      groupDescription: |-
+
+        Managing Tasks
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Add New Task'
+      description: 'Adding a new task'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: ''
+        required: true
+        example: eligendi
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      description:
+        name: description
+        description: ''
+        required: true
+        example: 'Necessitatibus cum qui magni dolores rerum.'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      user_id:
+        name: user_id
+        description: 'The <code>id</code> of an existing record in the users table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
+    cleanBodyParameters:
+      name: eligendi
+      description: 'Necessitatibus cum qui magni dolores rerum.'
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/tasks/{id}'
+    metadata:
+      groupName: Tasks
+      groupDescription: |-
+
+        Managing Tasks
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Show Task'
+      description: 'Getting the data of a specific task'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the task.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":{"id":1,"name":"Est accusamus.","description":"Deserunt quia odit rem iusto mollitia expedita architecto. Perspiciatis ex est perspiciatis voluptatem. Modi sit odit sed eos quia.","user_id":1,"created_at":"2024-12-13 13:22:16","updated_at":"2024-12-13 13:22:16"}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - PUT
+      - PATCH
+    uri: 'api/tasks/{id}'
+    metadata:
+      groupName: Tasks
+      groupDescription: |-
+
+        Managing Tasks
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Update Task'
+      description: 'Updating a specific task'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the task.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: ''
+        required: true
+        example: voluptates
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      description:
+        name: description
+        description: ''
+        required: true
+        example: 'Eos dolores rerum deleniti dolores sint.'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+      user_id:
+        name: user_id
+        description: 'The <code>id</code> of an existing record in the users table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        custom: []
+    cleanBodyParameters:
+      name: voluptates
+      description: 'Eos dolores rerum deleniti dolores sint.'
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/tasks/{id}'
+    metadata:
+      groupName: Tasks
+      groupDescription: |-
+
+        Managing Tasks
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Delete Task'
+      description: 'Deleting a specific task'
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        name: id
+        description: 'The ID of the task.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        custom: []
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

@@ -1,0 +1,84 @@
+[24-Jun-2025 14:12:11 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php on line 7
+[24-Jun-2025 18:43:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php on line 7
+[24-Jun-2025 20:34:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php on line 7
+[25-Jun-2025 03:26:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php on line 7
+[25-Jun-2025 05:58:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php on line 7
+[25-Jun-2025 05:58:26 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php on line 7
+[25-Jun-2025 05:58:28 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php on line 7
+[25-Jun-2025 05:58:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php on line 7
+[25-Jun-2025 05:58:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php on line 7
+[25-Jun-2025 06:19:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php on line 7
+[25-Jun-2025 08:17:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php on line 7
+[25-Jun-2025 23:51:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php on line 7
+[25-Jun-2025 23:51:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php on line 7
+[25-Jun-2025 23:53:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php on line 7
+[25-Jun-2025 23:54:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php on line 7
+[25-Jun-2025 23:56:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php on line 7
+[26-Jun-2025 00:06:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/WalletRequest.php on line 7
+[26-Jun-2025 00:07:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/RegisterUserRequest.php on line 7
+[26-Jun-2025 00:10:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/UpdateTaskRequest.php on line 7
+[26-Jun-2025 00:11:30 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/StoreTaskRequest.php on line 7
+[26-Jun-2025 00:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Http\FormRequest" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Requests/LoginUserRequest.php on line 7

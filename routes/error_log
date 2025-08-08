@@ -1,0 +1,36 @@
+[23-Jun-2025 21:06:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/vortuvkg/wallet.vortexfx.com/routes/api.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/api.php on line 14
+[23-Jun-2025 21:06:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Schedule" not found in /home/vortuvkg/wallet.vortexfx.com/routes/console.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/console.php on line 8
+[23-Jun-2025 21:06:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/vortuvkg/wallet.vortexfx.com/routes/web.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/web.php on line 7
+[24-Jun-2025 04:52:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/vortuvkg/wallet.vortexfx.com/routes/web.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/web.php on line 7
+[24-Jun-2025 04:52:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/vortuvkg/wallet.vortexfx.com/routes/api.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/api.php on line 14
+[24-Jun-2025 04:52:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/vortuvkg/wallet.vortexfx.com/routes/api.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/api.php on line 14
+[24-Jun-2025 04:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/vortuvkg/wallet.vortexfx.com/routes/web.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/web.php on line 7
+[24-Jun-2025 05:08:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Schedule" not found in /home/vortuvkg/wallet.vortexfx.com/routes/console.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/console.php on line 8
+[24-Jun-2025 05:09:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Schedule" not found in /home/vortuvkg/wallet.vortexfx.com/routes/console.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/routes/console.php on line 8

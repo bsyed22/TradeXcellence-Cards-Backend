@@ -1,0 +1,72 @@
+[24-Jun-2025 08:28:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendPasswordResetCode.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendPasswordResetCode.php on line 9
+[24-Jun-2025 08:42:05 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendPasswordResetCode.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendPasswordResetCode.php on line 9
+[24-Jun-2025 09:57:29 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendVerificationCode.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendVerificationCode.php on line 8
+[24-Jun-2025 10:17:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendVerificationCode.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendVerificationCode.php on line 8
+[24-Jun-2025 12:15:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/TestEmail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/TestEmail.php on line 9
+[24-Jun-2025 12:55:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendPasswordResetCode.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendPasswordResetCode.php on line 9
+[24-Jun-2025 12:55:34 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendVerificationCode.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/SendVerificationCode.php on line 8
+[24-Jun-2025 15:32:16 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminDepositStatusChanged.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminDepositStatusChanged.php on line 12
+[24-Jun-2025 15:32:17 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminDepositSubmitted.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminDepositSubmitted.php on line 10
+[24-Jun-2025 15:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserDepositSubmitted.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserDepositSubmitted.php on line 10
+[24-Jun-2025 15:32:21 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserWithdrawalStatusChanged.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserWithdrawalStatusChanged.php on line 9
+[24-Jun-2025 15:32:22 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserWithdrawalSubmitted.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserWithdrawalSubmitted.php on line 10
+[24-Jun-2025 16:21:38 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminUserRegistered.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminUserRegistered.php on line 10
+[24-Jun-2025 16:21:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminWithdrawalStatusChanged.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminWithdrawalStatusChanged.php on line 10
+[24-Jun-2025 16:21:46 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminWithdrawalSubmitted.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/AdminWithdrawalSubmitted.php on line 10
+[24-Jun-2025 16:21:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserDepositStatusChanged.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserDepositStatusChanged.php on line 10
+[24-Jun-2025 16:22:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserWelcomeEmail.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/UserWelcomeEmail.php on line 10
+[24-Jun-2025 21:38:06 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Mail\Mailable" not found in /home/vortuvkg/wallet.vortexfx.com/app/Mail/TestEmail.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Mail/TestEmail.php on line 9

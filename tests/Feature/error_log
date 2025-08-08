@@ -1,0 +1,20 @@
+[24-Jun-2025 09:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TransferControllerTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TransferControllerTest.php on line 16
+[24-Jun-2025 10:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TransferControllerTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TransferControllerTest.php on line 16
+[24-Jun-2025 12:33:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function uses() in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TasksCRUDTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TasksCRUDTest.php on line 9
+[24-Jun-2025 12:33:04 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TransferControllerTest.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TransferControllerTest.php on line 16
+[24-Jun-2025 22:16:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function uses() in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TasksCRUDTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Feature/TasksCRUDTest.php on line 9

@@ -1,0 +1,64 @@
+[24-Jun-2025 10:17:43 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php on line 8
+[24-Jun-2025 10:37:24 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php on line 8
+[24-Jun-2025 12:35:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php on line 8
+[24-Jun-2025 12:40:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php on line 8
+[24-Jun-2025 12:58:31 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php on line 8
+[24-Jun-2025 20:03:23 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php on line 8
+[25-Jun-2025 01:45:55 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php on line 8
+[25-Jun-2025 01:45:57 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php on line 8
+[25-Jun-2025 01:45:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php on line 8
+[25-Jun-2025 14:47:04 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php on line 8
+[25-Jun-2025 14:48:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php on line 8
+[25-Jun-2025 14:48:50 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php on line 8
+[25-Jun-2025 14:55:25 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserWithTokenResource.php on line 8
+[25-Jun-2025 14:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php on line 8
+[25-Jun-2025 15:00:15 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/TaskResource.php on line 8
+[25-Jun-2025 15:07:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Http\Resources\Json\JsonResource" not found in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/app/Http/Resources/UserResource.php on line 8

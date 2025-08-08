@@ -1,0 +1,8 @@
+[24-Jun-2025 13:02:00 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/Unit/PaymentMethodTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Unit/PaymentMethodTest.php on line 9
+[24-Jun-2025 23:04:57 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/Unit/PaymentMethodTest.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Unit/PaymentMethodTest.php on line 9

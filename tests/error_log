@@ -1,0 +1,24 @@
+[23-Jun-2025 21:07:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function uses() in /home/vortuvkg/wallet.vortexfx.com/tests/Pest.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Pest.php on line 14
+[23-Jun-2025 21:07:12 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/TestCase.php on line 7
+[24-Jun-2025 06:41:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function uses() in /home/vortuvkg/wallet.vortexfx.com/tests/Pest.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Pest.php on line 14
+[24-Jun-2025 06:58:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function uses() in /home/vortuvkg/wallet.vortexfx.com/tests/Pest.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/Pest.php on line 14
+[24-Jun-2025 09:00:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/TestCase.php on line 7
+[24-Jun-2025 09:16:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/vortuvkg/wallet.vortexfx.com/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/vortuvkg/wallet.vortexfx.com/tests/TestCase.php on line 7
