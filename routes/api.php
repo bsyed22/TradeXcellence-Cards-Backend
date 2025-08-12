@@ -11,7 +11,9 @@ use App\Http\Controllers\Api\{AdminController,
     RoleController,
     SettingsController,
     UserController,
-    WithdrawalController};
+    WithdrawalController,
+    CouponController,
+};
 use App\Http\Controllers\Api\admin\PaymentMethodController;
 use App\Http\Controllers\Api\ALT5Controller;
 use App\Http\Controllers\Api\BrandingSettingController;
@@ -47,7 +49,6 @@ Route::prefix('referral-requests')->group(function () {
     // Reject a referral request (Admin)
     Route::post('{id}/reject', [ReferralRequestController::class, 'reject']);
 });
-
 
 
 //send verification email
@@ -117,6 +118,9 @@ Route::middleware([])->group(function () {
 
     Route::get("/transactions/{id?}", [AdminController::class, 'transactions']);
 
+    //coupon code
+    Route::apiResource('coupons', CouponController::class);
+    Route::post('/coupons/apply-coupon', [CouponController::class, 'apply']);
 
     Route::get('/notifications', [NotificationController::class, 'index']);
     Route::get('/notifications/user/{id}', [NotificationController::class, 'getNotificationsByUserId']);
@@ -124,7 +128,7 @@ Route::middleware([])->group(function () {
     Route::post('/notifications/mark-all-as-read', [NotificationController::class, 'markAllAsRead']);
 
     //Settings by mode
-    Route::get('/settings/{mode}',[SettingsController::class,'settingsByMode']);
+    Route::get('/settings/{mode}', [SettingsController::class, 'settingsByMode']);
 
     Route::prefix('settings')->group(function () {
         Route::get('/', [SettingsController::class, 'index']); // Get all settings
@@ -146,7 +150,7 @@ Route::middleware([])->group(function () {
         Route::get('dashboard-summary', [AdminController::class, 'dashboardSummary']);
     });
 
-    Route::get("/user/dashboardSummary",[UserController::class, 'dashboardSummary']);
+    Route::get("/user/dashboardSummary", [UserController::class, 'dashboardSummary']);
 
 // Deposit Routes
     Route::prefix('deposit')->group(function () {
