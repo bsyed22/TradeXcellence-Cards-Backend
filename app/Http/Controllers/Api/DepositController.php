@@ -53,6 +53,7 @@ class DepositController extends Controller
             $deposit = Deposit::create([
                 'user_id' => $request->user_id,
                 'card_id' => $request->card_id,
+                'coupon_id' => $request->coupon_id,
                 'fee' => $request->fee,
                 'alias' => $request->alias,
                 'card_type' => $request->card_type,
