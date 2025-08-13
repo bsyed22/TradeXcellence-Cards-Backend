@@ -118,8 +118,14 @@ class BrandingSettingController extends Controller
                 $extension = $uploadedFile->getClientOriginalExtension();
                 $imageName = $field . '_' . Str::random(10) . '.' . $extension;
 
-                $image = $this->imageManager->read($uploadedFile);
-                $image->save(storage_path("app/public/branding/{$imageName}"));
+                if ($extension === 'svg') {
+                    // Just store the SVG as-is
+                    $uploadedFile->storeAs('branding', $imageName, 'public');
+                } else {
+                    // Process raster images with Intervention or your image manager
+                    $image = $this->imageManager->read($uploadedFile->getRealPath());
+                    $image->save(storage_path("app/public/branding/{$imageName}"));
+                }
 
                 $branding->$field = $imageName;
             }
