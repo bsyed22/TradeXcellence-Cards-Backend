@@ -27,6 +27,7 @@ class DepositController extends Controller
         try {
             $validator = Validator::make($request->all(), [
                 'user_id' => 'required|exists:users,id',
+                'coupon_id' => 'required|exists:coupons,id',
                 'amount' => 'required|numeric|min:0.0001',
                 'card_id' => 'nullable|numeric|min:0.0001',
                 'txn_hash' => 'nullable|string',
@@ -286,6 +287,7 @@ class DepositController extends Controller
             $validator = Validator::make($request->all(), [
                 'user_id' => 'sometimes|exists:users,id',
                 'amount' => 'sometimes|numeric|min:0.0001',
+                'coupon_id' => 'required|exists:coupons,id',
                 'card_id' => 'sometimes|numeric|min:0.0001',
                 'txn_hash' => 'sometimes|string|nullable',
                 'transaction_id' => 'sometimes|integer|min:1|nullable',

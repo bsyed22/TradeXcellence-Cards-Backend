@@ -121,6 +121,7 @@ Route::middleware([])->group(function () {
     //coupon code
     Route::apiResource('coupons', CouponController::class);
     Route::post('/coupons/apply-coupon', [CouponController::class, 'apply']);
+    Route::post('/validate-coupon', [CouponController::class, 'validateCoupon']);
 
     Route::get('/notifications', [NotificationController::class, 'index']);
     Route::get('/notifications/user/{id}', [NotificationController::class, 'getNotificationsByUserId']);

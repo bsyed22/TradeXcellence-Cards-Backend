@@ -17,7 +17,7 @@ class AdminController extends Controller
     public function transactions($id = null)
     {
 
-        $deposits = Deposit::with(['user','card'])
+        $deposits = Deposit::with(['user','card','coupon'])
             ->when($id, fn($q) => $q->where('user_id', $id))
             ->get()
             ->map(function ($item) {
@@ -90,7 +90,7 @@ class AdminController extends Controller
 
             $cards = CardHolderLink::all();
 
-            $deposits = Deposit::with(['user', 'card'])
+            $deposits = Deposit::with(['user', 'card','coupon'])
                 ->get()
                 ->map(function ($item) {
                     $item->type = 'deposit';

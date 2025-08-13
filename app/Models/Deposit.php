@@ -11,14 +11,13 @@ use Illuminate\Support\Facades\Storage;
 
 class Deposit extends Model
 {
-    use HasFactory;
-
     protected $fillable = [
         'user_id',
         'amount',
         'alias',
         'fee',
         'card_id',
+        'coupon_id',
         'proof_image',
         'card_type',
         'txn_hash',
@@ -50,6 +49,11 @@ class Deposit extends Model
     public function card()
     {
         return $this->belongsTo(CardHolderLink::class, 'card_id', 'card_id');
+    }
+
+    public function coupon()
+    {
+        return $this->belongsTo(Coupon::class, 'coupon_id', 'id');
     }
 
     // Accessor for full image URL
